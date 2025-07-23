@@ -8,5 +8,12 @@
         "editor.wordWrap": "on",
         "editor.rulers": [120],
         "editor.wordWrapColumn": 120
-    }
+    },
+    "python-envs.pythonProjects": [
+        {
+            "path": "",
+            "envManager": "ms-python.python:conda",
+            "packageManager": "ms-python.python:conda"
+        }
+    ]
 }
