@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(cmd /c:*)",
+      "Bash(where python)",
+      "Bash(C:\\Users\\thier\\miniforge3\\python.exe modis_aws_comparison.py)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(cut:*)",
+      "Bash(awk:*)",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "editor.wordWrap": "on",
+    "[python]": {
+        "editor.wordWrap": "on",
+        "editor.rulers": [120]
+    },
+    "notebook.editorOptionsCustomizations": {
+        "editor.wordWrap": "on",
+        "editor.rulers": [120],
+        "editor.wordWrapColumn": 120
+    }
+}
