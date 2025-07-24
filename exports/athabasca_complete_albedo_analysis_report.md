@@ -1,6 +1,6 @@
 # ATHABASCA Glacier - MODIS vs AWS Albedo Analysis Report
 
-**Generated:** 2025-07-24 11:23:44
+**Generated:** 2025-07-24 11:39:12
 
 **Analysis includes:** Terra/Aqua fused data
 
@@ -158,6 +158,28 @@
 | MOD09GA | 61 | 0.632 | 0.400 | 0.166 | 0.127 | -0.095 | 11.5% | 31.6% |
 | MOD10A1 | 50 | 0.731 | 0.535 | 0.186 | 0.149 | -0.124 | 16.0% | 39.1% |
 
+## 6. Outlier Impact Analysis (Detailed)
+
+### 6.1 Outlier Detection Summary
+
+**Z-score Outlier Detection (threshold > 3):**
+
+- **MCD43A3:** 22 outliers (5.6% of 391 observations)
+- **MOD09GA:** 8 outliers (2.7% of 294 observations)
+- **MOD10A1:** 3 outliers (1.8% of 167 observations)
+- **AWS:** 11 outliers (2.5% of 432 observations)
+
+### 6.2 Statistics Comparison (With vs Without Outliers)
+
+| Method | Condition | n | r | RMSE | MAE | Bias | r Improvement | RMSE Improvement |
+|--------|-----------|---|---|------|-----|------|---------------|------------------|
+| MCD43A3 | With | 332 | 0.642 | 0.150 | 0.090 | -0.070 | - | - |
+| MCD43A3 | Without | 314 | 0.675 | 0.135 | 0.081 | -0.075 | +5.1% | +10.2% |
+| MOD09GA | With | 252 | 0.508 | 0.123 | 0.078 | -0.028 | - | - |
+| MOD09GA | Without | 245 | 0.717 | 0.093 | 0.067 | -0.037 | +41.3% | +24.5% |
+| MOD10A1 | With | 139 | 0.653 | 0.144 | 0.107 | -0.062 | - | - |
+| MOD10A1 | Without | 134 | 0.731 | 0.132 | 0.100 | -0.075 | +11.9% | +8.5% |
+
 ## 7. Data Quality and Availability
 
 ### 7.1 Data Completeness by Method
@@ -188,4 +210,4 @@
 ---
 
 *End of Comprehensive Analysis Report*
-*Generated: 2025-07-24 11:23:44*
+*Generated: 2025-07-24 11:39:12*
