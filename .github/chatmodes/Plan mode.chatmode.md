@@ -30,5 +30,5 @@ description: |
     - Include code snippets, diagrams (ASCII/Mermaid), and comparison tables
     - Prioritize findings by impact and implementation effort
     - Provide both immediate fixes and long-term strategic improvements
-tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runNotebooks', 'runTaskGetOutput', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'github', 'context7', 'pylance mcp server', 'configureNotebook', 'installNotebookPackages', 'listNotebookPackages', 'configurePythonEnvironment', 'getPythonEnvironmentInfo', 'getPythonExecutableCommand', 'installPythonPackage']
+tools: ['changes', 'codebase', 'editFiles', 'extensions', 'fetch', 'findTestFiles', 'githubRepo', 'new', 'openSimpleBrowser', 'problems', 'runCommands', 'runNotebooks', 'runTaskGetOutput', 'runTasks', 'runTests', 'search', 'searchResults', 'terminalLastCommand', 'terminalSelection', 'testFailure', 'usages', 'vscodeAPI', 'context7', 'pylance mcp server', 'configureNotebook', 'installNotebookPackages', 'listNotebookPackages', 'configurePythonEnvironment', 'getPythonEnvironmentInfo', 'getPythonExecutableCommand', 'installPythonPackage']
 ---
