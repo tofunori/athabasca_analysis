@@ -21,7 +21,17 @@
       "Bash(powershell:*)",
       "Bash(cp:*)",
       "Bash(mv:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(marimo convert:*)",
+      "Bash(set PYTHONIOENCODING=utf-8)",
+      "Bash(marimo edit:*)",
+      "Bash(marimo config:*)",
+      "Bash(winget install:*)",
+      "Bash(where gh)",
+      "WebFetch(domain:docs.marimo.io)",
+      "Bash(conda list:*)",
+      "Bash(node:*)",
+      "Bash(marimo create:*)"
     ],
     "deny": []
   }
