@@ -18,7 +18,10 @@
       "Bash(git branch:*)",
       "Bash(git push:*)",
       "Bash(gh:*)",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)"
     ],
     "deny": []
   }
