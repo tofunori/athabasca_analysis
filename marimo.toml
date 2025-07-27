@@ -1,0 +1,17 @@
+[ai.open_ai]
+# OpenRouter configuration
+model = "moonshotai/kimi-k2"
+api_key = "YOUR_OPENROUTER_API_KEY_HERE"
+base_url = "https://openrouter.ai/api/v1"
+
+# GitHub Copilot config (commented out - uncomment to use)
+# model = "gpt-4o-mini"
+# api_key = "YOUR_GITHUB_COPILOT_API_KEY_HERE"
+# base_url = "https://api.githubcopilot.com/"
+
+[display]
+code_editor_font_size = 14
+cell_output = "above"
+
+[runtime]
+auto_instantiate = true
